@@ -12,5 +12,5 @@ $content="From: $name \n Email: $email \n Message: $message";
 $recipient = "hgeorgiev1218@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $phone_no, $content, $mailheader) or die("Error!");
-echo "Вашето съобщение е изпратено. Очаквайте да се свържем с вас!";
+echo "Вашето съобщение е изпратено!";
 ?>
