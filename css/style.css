@@ -788,7 +788,11 @@ button#sidebarCollapse {
     padding: 0;
     text-transform: uppercase;
 }
-
+@media only screen and (max-width: 1199px){
+.slide_text h1 {
+    font-size: 35px;
+}
+}
 .slide_text h3 strong {
     font-weight: 900;
 }
