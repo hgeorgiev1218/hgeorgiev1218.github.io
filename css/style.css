@@ -2145,6 +2145,28 @@ h3.small_heading {
 .carousel a.carousel-control-prev {
     background: #00cc99;
     opacity: 1;
+    width: 35px;
+    height: 35px;
+    border-radius: 0;
+    top: 40%;
+    font-size: 20px;
+    left: -120px;
+}
+
+.carousel a.carousel-control-next {
+	background: #00cc99;
+    opacity: 1;
+    width: 35px;
+    height: 35px;
+    border-radius: 0;
+    top: 40%;
+    font-size: 20px;
+	right: -120px;
+}
+@media only screen and (min-width:991px) {
+.carousel a.carousel-control-prev {
+    background: #00cc99;
+    opacity: 1;
     width: 85px;
     height: 85px;
     border-radius: 0;
@@ -2162,6 +2184,7 @@ h3.small_heading {
     top: 40%;
     font-size: 35px;
 	right: -120px;
+}
 }
 
 #demo {
